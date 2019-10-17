@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity For Result"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:textColor="#3579AC"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:id="@+id/resultTextView_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        android:text=""
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/loginButton_id"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="#6DA8D6"
+        android:layout_marginBottom="5dp"
+        android:textColor="#EEEEEE"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text" />
+
+</LinearLayout>

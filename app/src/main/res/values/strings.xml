@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Activity For Result</string>
+
+    <string name="text">Login here and get data from Welcome Page</string>
+</resources>

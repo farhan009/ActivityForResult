@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomePage"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:src="@drawable/welcome" />
+
+    <EditText
+        android:id="@+id/editText_id"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Full name" />
+
+    <Button
+        android:id="@+id/getData_Button_id"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Get Data"
+        android:layout_marginTop="5dp"
+        android:background="#6DA8D6"
+        android:textStyle="bold"
+        android:textColor="#ECECEC"
+        android:textSize="18sp"/>
+
+</LinearLayout>
